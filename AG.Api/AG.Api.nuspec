@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>AerialGolfApi</id>
+    <version>1.0.11</version>
+    <title>AerialGolf</title>
+    <authors>David Rector</authors>
+    <owners>David Rector</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>API for Aerial Golf</description>
+    <tags>aerial golf api</tags>
+
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="11.0.2" />
+      <dependency id="Microsoft.CSharp" version="4.5.0" />
+    </dependencies>    
+  </metadata>
+
+  <files>
+    <file src="bin\Release\netstandard2.0\AG.Api.dll" target="lib\netstandard2.0\AG.Api.dll" />
+    <file src="bin\Release\netstandard2.0\AG.Utilities.dll" target="lib\netstandard2.0\AG.Utilities.dll" />
+    <file src="bin\Release\netstandard2.0\AG.Dto.dll" target="lib\netstandard2.0\AG.Dto.dll" />
+  </files>
+
+</package>

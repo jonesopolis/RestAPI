@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AG.Data\AG.Data.csproj" />
+    <ProjectReference Include="..\AG.Dto\AG.Dto.csproj" />
+    <ProjectReference Include="..\Ag.Utilities\AG.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
